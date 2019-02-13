@@ -1,22 +1,12 @@
 
-#theme : simple
-# theme : beige
+### theme : beige
+
 layout : top-left
 
-#
-# Code
-#
-highlight : mono-blue
-# foundation purebasic mono-blue
-+code-line-numbers : true
+highlight : mono-blue # foundation purebasic mono-blue
 
-#
-#
-#
-footnote : " - "
+### code-line-numbers : true
 
-#
-# Published Setting
-# Doc: https://gitpitch.com/docs/settings/published
-#
+footnote : "Database Normalization - Crash Course - 2019"
+
 published : false
