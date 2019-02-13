@@ -1,6 +1,6 @@
 @snap[text-center]
-# Database Normalization
-#### Crash Course 
+## Database Normalization
+#### - Crash Course - 
 @snapend
 
 Note:
