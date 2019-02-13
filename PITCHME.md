@@ -12,6 +12,7 @@ Note:
   
 ### Database Normalization
 
+@ul
 - By Codd (again)
 - Reduce data redundancy 
 - Improve data integrity
@@ -19,7 +20,6 @@ Note:
 - ~10 Normal Forms (NF)
     - Real life ~3NF
     - Based on experience
-@ul
 - Denormalization (performance)
 @ulend
 
