@@ -33,7 +33,7 @@ PupilId|Mentor|MentorOffice|1. less|2. less|3. less
 
 ---
 
-## 1NF - No Duplications
+## 1NF - No Repeating Groups (Col./Attrib.)
 
 PupilId|Mentor|MentorOffice|Less.Id
 -------|------|-----------|-------
@@ -46,6 +46,7 @@ PupilId|Mentor|MentorOffice|Less.Id
 
 Note:
 - Lesson from Col->Row
+- Primary Key
 
 ---
 
@@ -65,7 +66,8 @@ PupilId |Less.Id
 ... | ...
 
 Note:
-- Remove Duplicates 
+- Remove Duplicates (same date in columns)
+- Remaining into new table 
 - Not all data shown
 
 ---
