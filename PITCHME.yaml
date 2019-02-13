@@ -1,0 +1,22 @@
+
+#theme : simple
+# theme : beige
+layout : top-left
+
+#
+# Code
+#
+highlight : mono-blue
+# foundation purebasic mono-blue
++code-line-numbers : true
+
+#
+#
+#
+footnote : " - "
+
+#
+# Published Setting
+# Doc: https://gitpitch.com/docs/settings/published
+#
+published : false
