@@ -1,11 +1,14 @@
 @snap[text-center]
-# Database Normalization 
+# Database Normalization
+#### Crash Course 
 @snapend
 
 Note:
- - https://gitpitch.com/kk-sw/database-normalization/master?grs=github&t=moon#/
- - https://support.microsoft.com/hu-hu/help/283878/description-of-the-database-normalization-basics
- - https://en.wikipedia.org/wiki/Database_normalization
+- https://gitpitch.com/kk-sw/database-normalization/master?grs=github&t=moon#/
+- https://support.microsoft.com/hu-hu/help/283878/description-of-the-database-normalization-basics
+- https://en.wikipedia.org/wiki/Database_normalization
+
+---
   
 ### Database Normalization
 
@@ -14,8 +17,7 @@ Note:
 - Improve data integrity
 - Based on formal rules
 - ~10 Normal Forms (NF)
-- Usually data is normalized based on experience to ~4NF
-
+- Usually data is normalized based on experience to ~3NF
 @ul
 - Denormalization (performance)
 @ulend
