@@ -105,7 +105,7 @@ Note:
 
 ---
 
-@snap[text-center]
-# Thank You
+@snap[midpoint text-center]
+## Thank You
 #### Questions? 
 @snapend
