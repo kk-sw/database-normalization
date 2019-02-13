@@ -1,4 +1,4 @@
-@snap[text-center]
+@snap[midpoint text-center]
 ## Database Normalization
 #### - Crash Course - 
 @snapend
