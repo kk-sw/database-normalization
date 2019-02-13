@@ -97,6 +97,15 @@ Note:
 
 ## 4NF And Beyond
 
+@ul
 - Not common in real life
     - Used in special domains
 - Complex to design
+@ulend
+
+---
+
+@snap[text-center]
+# Thank You
+#### Questions? 
+@snapend
