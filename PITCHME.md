@@ -17,7 +17,8 @@ Note:
 - Improve data integrity
 - Based on formal rules
 - ~10 Normal Forms (NF)
-- Usually data is normalized based on experience to ~3NF
+    - Real life ~3NF
+    - Based on experience
 @ul
 - Denormalization (performance)
 @ulend
@@ -33,7 +34,7 @@ PupilId|Mentor|MentorOffice|1. less|2. less|3. less
 
 ---
 
-## 1NF - No Repeating Groups (Col./Attrib.)
+## 1NF - No Repeating Groups/Attrib. 
 
 PupilId|Mentor|MentorOffice|Less.Id
 -------|------|-----------|-------
@@ -66,13 +67,14 @@ PupilId |Less.Id
 ... | ...
 
 Note:
-- Remove Duplicates (same date in columns)
+- Remove Duplicates (same data in rows at col pos.)
 - Remaining into new table 
 - Not all data shown
 
 ---
 
-## 3NF - No Key Dependency (Functional Correctness) 
+## 3NF - No Key Dependency 
+### (Functional Correctness) 
 
 PupilId |Mentor
 --------|------
@@ -92,3 +94,7 @@ Note:
 ---
 
 ## 4NF And Beyond
+
+- Not common in real life
+    - Used in special domains
+- Complex to design
