@@ -32,6 +32,8 @@ PupilId|Mentor|MentorOffice|1. less|2. less|3. less
 1022  |John  |412        |101-07 |143-01 |159-02
 4123   |Basil |216        |201-01 |211-02 |214-01
 
+*Primary Key (PK)* is an **unique** identifier for an entity.
+
 ---
 
 ## 1NF - No Repeating Groups/Attrib. 
@@ -68,13 +70,13 @@ PupilId |Less.Id
 
 Note:
 - Remove Duplicates (same data in rows at col pos.)
+- PupilId as key
 - Remaining into new table 
 - Not all data shown
 
 ---
 
-## 3NF - No Key Dependency 
-### (Functional Correctness) 
+## 3NF - No Key Dep. (Func. Correctness) 
 
 PupilId |Mentor
 --------|------
