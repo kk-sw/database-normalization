@@ -98,9 +98,9 @@ Note:
 ## 4NF And Beyond
 
 @ul
+- Complex to design with not much gain
 - Not common in real life
     - Used in special domains
-- Complex to design
 @ulend
 
 ---
