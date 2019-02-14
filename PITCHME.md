@@ -1,6 +1,8 @@
 @snap[midpoint text-center]
+
 ## Database Normalization
 #### - Crash Course - 
+
 @snapend
 
 Note:
@@ -106,6 +108,8 @@ Note:
 ---
 
 @snap[midpoint text-center]
+
 ## Thank You
 #### Questions? 
+
 @snapend
