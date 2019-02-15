@@ -15,7 +15,7 @@ Note:
 ### Database Normalization
 
 @ul
-- By Codd (again)
+- Idea by Codd in 1970 (IBM)
 - Reduce data redundancy 
 - Improve data integrity
 - Based on formal rules
@@ -25,14 +25,17 @@ Note:
 - Denormalization (performance)
 @ulend
 
+Note:
+ - NF forms later by Codd + others
+ 
 ---
 
 ## Original Data
 
 PupilId|Mentor|MentorOffice|1. less|2. less|3. less
-------|------|-----------|-------|-------|-----------
-1022  |John  |412        |101-07 |143-01 |159-02
-4123   |Basil |216        |201-01 |211-02 |214-01
+-------|------|------------|-------|-------|-----------
+102 2  |John  |412         |101-07 |143-01 |159-02
+4123   |Basil |216         |201-01 |211-02 |214-01
 
 *Primary Key (PK)* is an **unique** identifier for an entity.
 
@@ -40,14 +43,14 @@ PupilId|Mentor|MentorOffice|1. less|2. less|3. less
 
 ## 1NF - No Repeating Groups/Attrib. 
 
-PupilId|Mentor|MentorOffice|Less.Id
--------|------|-----------|-------
-1022   |   John    |412    |101-07
-1022   |   John    |412    |143-01
-1022   |   John    |412    |159-02
-4123   |   Basil   |216    |201-01
-4123   |   Basil   |216    |211-02
-4123   |   Basil   |216    |214-01
+PupilId|Mentor     |MentorOffice|Less.Id
+-------|-----------|-----------|-------
+1022   |   John    |412      |101-07
+1022   |   John    |412      |143-01
+1022   |   John    |412      |159-02
+4123   |   Basil   |216      |201-01
+4123   |   Basil   |216      |211-02
+4123   |   Basil   |216      |214-01
 
 Note:
 - Lesson from Col->Row
@@ -71,8 +74,8 @@ PupilId |Less.Id
 ... | ...
 
 Note:
-- Remove Duplicates (same data in rows at col pos.)
 - PupilId as key
+- Duplicates (same data in 1022, John, 412)
 - Remaining into new table 
 - Not all data shown
 
@@ -93,7 +96,7 @@ Basil   |216
 
 
 Note:
-- `Mentor` table 
+- `Mentor` table  with `MentorOffice`
 
 ---
 
@@ -105,6 +108,9 @@ Note:
     - Used in special domains
 @ulend
 
+Note:
+ - Show real life schema
+ 
 ---
 
 @snap[midpoint text-center]
