@@ -53,7 +53,7 @@ PupilId|Mentor     |MentorOffice|Less.Id
 4123   |   Basil   |216      |214-01
 
 Note:
-- Lesson from Col->Row
+- Lesson1, 2, 3 from Col->Row
 - Primary Key
 
 ---
@@ -75,8 +75,8 @@ PupilId |Less.Id
 
 Note:
 - PupilId as key
-- Duplicates (same data in 1022, John, 412)
-- Remaining into new table 
+- Duplicates (1022, John, 412)
+- Remaining into new table (PupilId, Less.Id)
 - Not all data shown
 
 ---
