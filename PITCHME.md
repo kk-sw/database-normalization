@@ -65,18 +65,16 @@ PupilId |Mentor |MentorOffice
 1022    |John   |412
 4123    |Basil  |216
 
-
 PupilId |Less.Id
 --------|------
 1022    |101-07
 1022    |143-01
-4123    |201-01
-... | ...
+1022    |159-02
 
 Note:
 - PupilId as key
-- Duplicates (1022, John, 412)
-- Remaining into new table (PupilId, Less.Id)
+- Extract different items (lessonId) new table (PupilId,Less.Id)
+- Collapse remaining same items (PupilId,Mentor,MentorOffice)
 - Not all data shown
 
 ---
@@ -96,7 +94,7 @@ Basil   |216
 
 
 Note:
-- `Mentor` table  with `MentorOffice`
+- Extract `Mentor` and `MentorOffice`
 
 ---
 
